@@ -6,18 +6,26 @@ public class Hw1103part2 {
 	public static void main(String[] args) {
 			int count = 0;
 			for (int i = 1; i <= 49; i++) {
-//				if (i % 4 == 0)
-//					continue;
+
 				if(i % 10 ==4)
 					continue;
 				if (i / 10 ==4){
-//					continue;
 					break;
 				}
 				System.out.print(i+" ");
 			count++;
 			}
+			System.out.println();
+
 			System.out.println(count+"個");
+			for (int x = 10; x >= 1; x--) {
+				for(int y = 1; y <= x; y++) {
+					System.out.print(y+ " ");
+				}
+				System.out.println();
+				}
+			}
 	}
-}
+
+
 
