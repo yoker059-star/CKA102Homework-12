@@ -10,7 +10,7 @@ public class Hw1103part2 {
 				if(i % 10 ==4)
 					continue;
 				if (i / 10 ==4){
-					continue;
+					break;
 				}
 				System.out.print(i+" ");
 			count++;
