@@ -11,7 +11,8 @@ public class Hw1110part1 {
 			Scanner sc = new Scanner(System.in) ;
 			System.out.println("請輸入:");
 			for (int i=0 ;i < a.length; i++) {
-			if(sc.hasNextDouble()) {
+			if(sc.hasNextDouble()) 
+			{
 				a[i]=sc.nextDouble();
 			}
 			
@@ -19,7 +20,7 @@ public class Hw1110part1 {
 			}
 			System.out.println("======================");
 				Arrays.sort(a);
-				// [Vincent] 優先判斷 0
+				// 優先判斷 0
 					// 看三邊是否相等
 					// 看兩邊是否相等 且 直角
 					// 看兩邊是否相等
