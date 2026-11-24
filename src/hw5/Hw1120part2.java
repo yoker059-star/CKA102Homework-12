@@ -6,7 +6,7 @@ package hw5;
 		{
 			int sum=0;
 			int[]x= new int[101];
-			int[] z=new int[10];
+			int[]z=new int[10];
 			int y,i;
 			for (i=0 ;i<x.length; i++)
 			{
